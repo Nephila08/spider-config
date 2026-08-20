@@ -6,7 +6,6 @@
 
 	./modules/kitty.nix
 	./modules/fish.nix
-	./modules/vesktop.nix
 
     ];
 
@@ -18,7 +17,14 @@
 
     home.packages = with pkgs; [
 
-	vesktop	
+	vesktop
+
+	yt-dlp
+	ffmpeg
+
+	libreoffice
+	blender
+	vscode	
     ];
 
     programs.git = {

@@ -55,6 +55,8 @@
 
 	git
 	vim
+	netbeans
+	jdk21
     ];
 
     nixpkgs.config.allowUnfree = true;

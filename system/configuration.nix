@@ -57,6 +57,8 @@
 	vim
 	netbeans
 	jdk21
+
+	cool-retro-term
     ];
 
     nixpkgs.config.allowUnfree = true;

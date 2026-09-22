@@ -57,6 +57,8 @@
 	vim
 	netbeans
 	jdk21
+	krita
+	mysql-workbench
 
 	cool-retro-term
     ];
@@ -64,6 +66,12 @@
     nixpkgs.config.allowUnfree = true;
 
     services.flatpak.enable = true;
+
+    services.mysql = {
+
+	enable = true;
+	package = pkgs.mysql80;
+    };
 
     system.stateVersion = "26.05";
 }

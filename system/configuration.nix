@@ -70,7 +70,7 @@
     services.mysql = {
 
 	enable = true;
-	package = pkgs.mysql80;
+	package = pkgs.mysql84;
     };
 
     system.stateVersion = "26.05";
